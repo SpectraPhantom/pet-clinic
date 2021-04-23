@@ -7,5 +7,4 @@ workflows:
   maven_test:
     jobs:
       - maven/test
-      - maven/build
       - maven/install
